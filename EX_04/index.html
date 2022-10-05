@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Impresión de formulario</title>
+    </head>
+
+    <body>
+        <form action="index.php" method="post"><br>
+            Introduzca un nombre:
+            <input name="nombre" type="text"><br><br>
+            Introduzca los apellidos:
+            <input name="apellidos" type="text"><br><br>
+            Password porfavor...
+            <input name="contraseña" type="password"><br><br>
+            Cual de las dos es usted?<br>
+            <label for="Alumno">Alumno </label>
+            <input type="radio" name="usuario" value="Alumno" id="Alumno">
+            <label for="Profesor"> Profesor </label>
+            <input type="radio" name="usuario" value="Profesor" id="Profesor"><br><br>
+            Su edad.
+            <input name="Edad" type="number"><br><br>
+            Finalmente introduzca comentarios.
+            <input name="Comentarios" type="text"><br>
+            <input type="hidden" id="myPrueba" name="test" type="text"><br>
+        </form>
+    </body>
+</html>
