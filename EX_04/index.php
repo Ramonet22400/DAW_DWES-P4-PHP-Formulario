@@ -18,15 +18,21 @@ $contraseña = $_POST['contraseña'];
 $checkbox = $_POST['usuario'];
 $edad = $_POST['Edad'];
 $comentarios = $_POST['Comentarios'];
-$hidden = $_POST['nombre'];
+$hidden = $_POST['test'];
 
 
 echo $nombre;
+echo "<br>";
 echo $apellidos;
+echo "<br>";
 echo $contraseña;
+echo "<br>";
 echo $checkbox;
+echo "<br>";
 echo $edad;
+echo "<br>";
 echo $comentarios;
+echo "<br>";
 echo $hidden;
 
 
